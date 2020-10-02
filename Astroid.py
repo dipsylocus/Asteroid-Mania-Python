@@ -2,12 +2,12 @@
 import pygame
 import random
 import os
-from os import
+from os import path
 
-WIDTH = 480;
-HEIGHT = 600;
-FPS = 30;
-POWER_TIME = 3000;
+WIDTH = 480
+HEIGHT = 600
+FPS = 30
+POWER_TIME = 3000
 
 #Colors
 WHITE = (255,255,255)
@@ -18,7 +18,7 @@ BLUE = (0,0,255)
 Olive = (128,128, 0)
 
 #PyGame Initialization
-pygameinit(*)
+pygame.init()
 pygame.mixer.init() #Mixer for sound mixing
 screen  = pygame.display.set_mode((WIDTH, HEIGHT)) #Display
 pygame.display.set_caption("Astroid") #Game Title
